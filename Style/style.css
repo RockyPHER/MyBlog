@@ -1,0 +1,10 @@
+body {
+    font-size: 12px;
+    font-family: consolas;
+    background-color: gray;
+}
+
+h3{
+    color: aliceblue;
+    background-color: aquamarine;
+}
