@@ -56,7 +56,6 @@ a {
 span {
     padding: 6px;
 }
-
 span:hover {
     background-color: var(--gray3);
     border-radius: 5px;
