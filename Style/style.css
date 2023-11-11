@@ -1,15 +1,34 @@
 :root {
-    --background-body: #C7C7C7;
-    --background-container: #454545;
-    --element-body: #545454;
-    --button-color: #838383;
+
+    --gray1: #333;
+    --gray2: #535353;
+    --gray3: #7f7f7f;
+    --gray4: #dbdada;
+
 }
 
-.top-navigation {
-    background-color: rgb(89, 89, 89);
-    border-bottom: 2px solid rgb(255, 255, 255);
-    position: relative;
+.navigation-bar {
+
+    display: flex;
+    background-color: var(--gray3);
+    border-bottom: 2px solid var(--gray4);
     width: 100%;
+
+}
+
+.bar-category-name {
+
+    align-self: center;
+    border-right: var(--gray4);
+
+}
+
+.bar-buttons {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
 }
 
 .button-container {
@@ -25,12 +44,12 @@ li {
 }
 
 body {
+
+    width: 100vw;
     font-family: consolas;
     background-color: rgb(60, 60, 60);
 
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
 }
 
 h1{
