@@ -1,0 +1,12 @@
+document.write(`
+<header class="navigation-bar">
+<span class="bar-category-name"><a href="/index.html"><h3>Knowledge</h3></a></span>
+<nav class="bar-buttons">
+<ul class="button-container">
+<li><a href="/Pages/Knowledge/Library/libraryMain.html"><span>Library</span></a></li>              
+<li><a href="/Pages/Knowledge/Roadmaps/roadmapsMain.html"><span>Roadmaps</span></a></li>
+<li><a href="/Pages/Knowledge/Type101/type101.html"><span>Type101</span></a></li>
+<li><a href="/Pages/Knowledge/Reviews/reviewsMain.html"><span>Reviews</span></a></li>          
+</ul>
+</nav>
+</header>`);

@@ -42,7 +42,7 @@
 
 }
 
-li {
+nav ul li {
     list-style-type: none;
     margin: 0 1em;
 }
@@ -53,10 +53,10 @@ a {
     color: white;
 }
 
-span {
+a span {
     padding: 6px;
 }
-span:hover {
+a span:hover {
     background-color: var(--gray3);
     border-radius: 5px;
 }
