@@ -1,0 +1,53 @@
+:root {
+
+    --gray1: #333;
+    --gray2: #535353;
+    --gray3: #7f7f7f;
+    --gray4: #dbdada;
+    --gray5: #7a7a7a;
+    --gray6: #414141;
+
+}
+
+body {
+    display: flex;
+}
+
+.navigation-bar {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: var(--gray1);
+    border-top: 2px solid var(--gray4);
+    border-bottom: 2px solid var(--gray4);
+    width: 100%;
+
+}
+
+.bar-category-name {
+
+    padding: 0 1em;
+    align-self: center;
+
+}
+
+.bar-buttons {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.button-container {
+
+    display: flex;
+
+}
+
+.content-text {
+    margin: 1em;
+    padding-top: 60px;
+}

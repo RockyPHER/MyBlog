@@ -9,6 +9,7 @@
 
 }
 
+
 .navigation-bar {
 
     position: fixed;
@@ -50,7 +51,6 @@
 
 body {
     display: flex;
-
 }
 
 nav ul li {
@@ -60,6 +60,7 @@ nav ul li {
 
 a {
     text-decoration: none;
+    font-family: Consolas, monaco, monospace;
     font-size: 16px;
     color: white;
 }
@@ -74,7 +75,6 @@ a span:hover {
 body {
 
     width: 100vw;
-    font-family: consolas;
     background-color: var(--gray3);
 
     display: flex;
